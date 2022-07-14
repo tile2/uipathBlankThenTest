@@ -11,12 +11,10 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.111458685",
   "runtimeOptions": {
     "autoDispose": false,
-    "netFrameworkLazyLoading": false,
     "isPausable": true,
-    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -25,8 +23,7 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -42,20 +39,27 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "2d0787e3-4620-4ed6-938c-ba71ff4a5998",
-        "testCaseType": "TestCase",
         "fileName": "TestCase1.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "07dcb9a3-f4ad-4817-974a-af9a1c5afd79",
-        "testCaseType": "TestCase",
         "fileName": "TestCase2.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "fd0e3659-8f6a-4c63-b1a2-8f1e65e410e8",
-        "testCaseType": "TestCase",
         "fileName": "TestCase3.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a0ed03b5-1e4f-444f-9162-2ddc79306bfc",
+        "fileName": "TestCase4.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "adc51b49-3c13-4e27-9650-22ead672ea40",
+        "fileName": "TestCase5BothSmoke&Regression.xaml"
       }
     ],
     "modernBehavior": false
