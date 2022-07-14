@@ -1,21 +1,22 @@
 {
   "name": "BlankProcessThenTestPossibly",
-  "description": "Blank Process first then repo will finally be Test Automation type with tests running with orchestrator on a scheduled basis",
-  "main": "Main2.xaml",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.1]",
-    "UiPath.System.Activities": "[22.4.0]",
-    "UiPath.UIAutomation.Activities": "[22.4.2-preview]"
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.0.0",
-  "projectVersion": "1.0.1",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -24,11 +25,12 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
-    "outputType": "Process",
+    "outputType": "Tests",
     "libraryOptions": {
       "includeOriginalXaml": false,
       "privateWorkflows": []
@@ -36,24 +38,29 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2d0787e3-4620-4ed6-938c-ba71ff4a5998",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "07dcb9a3-f4ad-4817-974a-af9a1c5afd79",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fd0e3659-8f6a-4c63-b1a2-8f1e65e410e8",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase3.xaml"
+      }
+    ],
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
-  "entryPoints": [
-    {
-      "filePath": "Main.xaml",
-      "uniqueId": "c83c9d82-ecdd-4c5a-adee-2cac8529c1c1",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "Main2.xaml",
-      "uniqueId": "52afc57e-617a-4b95-9a51-ddc18e6e1d36",
-      "input": [],
-      "output": []
-    }
-  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
